@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <!--Team A-->
+        <!--Player 1-->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/team_a_score"
+                android:id="@+id/player1_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
@@ -46,7 +46,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreeForTeamA"
+                android:onClick="addVictoryForPlayer1"
                 android:text="Victory" />
 
             <Button
@@ -56,7 +56,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamA"
+                android:onClick="addLossForPlayer1"
                 android:text="Loss" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addOneForTeamA"
+                android:onClick="addDrawForPlayer1"
                 android:text="Draw" />
 
         </LinearLayout>
@@ -79,7 +79,7 @@
 
         </View>
 
-        <!--Team B-->
+        <!--Player 2-->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/team_b_score"
+                android:id="@+id/player2_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
@@ -114,7 +114,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreeForTeamB"
+                android:onClick="addVictoryForPlayer2"
                 android:text="Victory" />
 
             <Button
@@ -124,7 +124,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoForTeamB"
+                android:onClick="addLossForPlayer2"
                 android:text="Loss" />
 
             <Button
@@ -134,7 +134,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addOneForTeamA"
+                android:onClick="addDrawForPlayer2"
                 android:text="Draw" />
 
         </LinearLayout>
