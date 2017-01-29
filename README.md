@@ -4,7 +4,7 @@
 
 The app is done as [Android Basics: User Input](https://www.udacity.com/course/android-basics-user-input--ud836) project. So I made it project programmatically and will introduce You what I have done overall.
 
-This app keeps score points in the game of chess. The screen is divided into two parts, which consist of:
+This app keeps score points in the game of chess. The screen is divided into two parts, every part consists of:
 
 1. Player name
 2. `TextView` that displays the score using methods `displayForPlayer1` and `displayForPlayer2`
