@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team A by 1 point.
+     * Increase the score for Player 1 by 1 point.
      */
     public void addVictoryForPlayer1(View v) {
         ++player1_score;
@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team A by 2 point.
+     * Don`t increase the score for Player 1.
      */
     public void addLossForPlayer1(View v) {
         displayForPlayer1(player1_score);
     }
 
     /**
-     * Increase the score for Team A by 3 point.
+     * Increase the score for Player 1 by 0.5 point.
      */
     public void addDrawForPlayer1(View v) {
         player1_score = player1_score + 0.5;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team B by 1 point.
+     * Increase the score for Player 2 by 1 point.
      */
     public void addVictoryForPlayer2(View v) {
         ++player2_score;
@@ -47,14 +47,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team B by 2 point.
+     * Don`t increase the score for Player 2.
      */
     public void addLossForPlayer2(View v) {
         displayForPlayer2(player2_score);
     }
 
     /**
-     * Increase the score for Team B by 3 point.
+     * Increase the score for Player 2 by 0.5 point.
      */
     public void addDrawForPlayer2(View v) {
         player2_score = player2_score + 0.5;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the given score for Team A.
+     * Displays the given score for Player 1.
      */
     public void displayForPlayer1(double score) {
         TextView scoreView = (TextView) findViewById(R.id.player1_score);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the given score for Team B.
+     * Displays the given score for Player 2.
      */
     public void displayForPlayer2(double score) {
         TextView scoreView = (TextView) findViewById(R.id.player2_score);
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Resets the score for both teams back to 0.
+     * Resets the score for both players back to 0.
      */
     public void ResetScore(View v) {
         player1_score = 0;
