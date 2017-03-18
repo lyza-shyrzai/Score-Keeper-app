@@ -1,6 +1,6 @@
 # Score-Keeper-app
 
-![](https://github.com/Liza-S/Score-Keeper-app/blob/master/Screenshot/app.png)
+![](https://github.com/Liza-S/Score-Keeper-app/blob/master/Screenshot/app.jpg)
 
 The app is done as [Android Basics: User Input](https://www.udacity.com/course/android-basics-user-input--ud836) project. So I made it project programmatically and will introduce You what I have done overall.
 
