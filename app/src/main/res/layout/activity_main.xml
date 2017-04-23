@@ -40,7 +40,7 @@
                 android:textSize="56sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -108,7 +108,7 @@
                 android:textSize="56sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -118,7 +118,7 @@
                 android:text="Victory" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -128,7 +128,7 @@
                 android:text="Loss" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/button32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
