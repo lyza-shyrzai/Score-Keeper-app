@@ -1,4 +1,4 @@
-package com.example.androidl.scorekeeperapp;
+package com.lscore.androidl.scorekeeperapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

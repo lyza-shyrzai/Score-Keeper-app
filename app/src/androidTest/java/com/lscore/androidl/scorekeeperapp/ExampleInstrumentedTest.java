@@ -1,4 +1,4 @@
-package com.example.androidl.scorekeeperapp;
+package com.lscore.androidl.scorekeeperapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
